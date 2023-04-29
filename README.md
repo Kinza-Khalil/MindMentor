@@ -13,7 +13,7 @@ MindMentor is a mental health chatbot designed to provide support and advice for
 1. Install Python 3.7 or higher
 2. Install Rasa: pip install rasa
 3. Install the required Python packages: pip install -r requirements.txt
-4. Set up the OpenAI API key: Create a .env file in the project's root directory and add your OpenAI API key: OPENAI_API_KEY=your_api_key_here Replace your_api_key_here 5. with your actual API key from OpenAI.
+4. Set up the OpenAI API key: Create a .env file in the project's root directory or set an environment variable and add your OpenAI API key:    OPENAI_API_KEY=your_api_key_here.  Replace your_api_key_here with your actual API key from OpenAI.
 
 **Usage**
 
