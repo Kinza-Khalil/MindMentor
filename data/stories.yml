@@ -1,0 +1,43 @@
+version: "2.0"
+stories:
+- story: Greet and help with depression
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: feeling_depressed
+  - action: utter_help_with_depression
+- story: Greet and help with anxiety
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: feeling_anxious
+  - action: utter_help_with_anxiety
+- story: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Greet and ask about depression symptoms
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: symptoms_of_depression
+  - action: utter_symptoms_of_depression
+
+- story: Greet and ask about anxiety symptoms
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: symptoms_of_anxiety
+  - action: utter_symptoms_of_anxiety
+
+- story: Ask about coping with depression
+  steps:
+  - intent: coping_with_depression
+  - action: utter_coping_with_depression
+
+- story: Ask about coping with anxiety
+  steps:
+  - intent: coping_with_anxiety
+  - action: utter_coping_with_anxiety
+

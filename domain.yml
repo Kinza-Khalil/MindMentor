@@ -1,0 +1,32 @@
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+  - feeling_depressed
+  - feeling_anxious
+  - symptoms_of_depression
+  - symptoms_of_anxiety
+  - coping_with_depression
+  - coping_with_anxiety
+responses:
+  utter_greet:
+  - text: "Hello! How can I help you today?"
+  utter_help_with_depression:
+  - text: "I'm sorry to hear that you're feeling depressed. It's important to talk to someone you trust about your feelings. A mental health professional can provide guidance and support."
+  utter_help_with_anxiety:
+  - text: "I understand that you're feeling anxious. Anxiety can be overwhelming, but there are strategies to manage it. Consider reaching out to a mental health professional for support."
+  utter_symptoms_of_depression:
+  - text: "Symptoms of depression can include persistent sadness, feelings of hopelessness, lack of energy, difficulty concentrating, changes in sleep and appetite, and loss of interest in activities you once enjoyed."
+  utter_symptoms_of_anxiety:
+  - text: "Symptoms of anxiety can include excessive worrying, restlessness, irritability, difficulty concentrating, muscle tension, sleep disturbances, and fatigue."
+  utter_coping_with_depression:
+  - text: "Coping with depression can involve seeking professional help, talking to friends and family, engaging in physical activity, practicing relaxation techniques, setting realistic goals, and maintaining a healthy lifestyle."
+  utter_coping_with_anxiety:
+  - text: "Coping with anxiety can involve seeking professional help, practicing deep breathing and relaxation techniques, engaging in regular exercise, getting enough sleep, maintaining a balanced diet, and staying connected with supportive friends and family."
+  utter_goodbye:
+  - text: "Goodbye! If you need help later, don't hesitate to reach out."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

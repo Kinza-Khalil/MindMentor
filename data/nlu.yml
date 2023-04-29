@@ -1,0 +1,46 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+- intent: feeling_depressed
+  examples: |
+    - I'm feeling really depressed
+    - I think I have depression
+    - I can't seem to shake this sadness
+- intent: feeling_anxious
+  examples: |
+    - I'm always anxious
+    - I have a lot of anxiety
+    - I can't stop worrying
+
+- intent: symptoms_of_depression
+  examples: |
+    - What are the symptoms of depression?
+    - How do I know if I have depression?
+    - Can you tell me about depression symptoms?
+
+- intent: symptoms_of_anxiety
+  examples: |
+    - What are the symptoms of anxiety?
+    - How do I know if I have anxiety?
+    - Can you tell me about anxiety symptoms?
+
+- intent: coping_with_depression
+  examples: |
+    - How can I cope with depression?
+    - What are some ways to deal with depression?
+    - How do I get through depression?
+
+- intent: coping_with_anxiety
+  examples: |
+    - How can I cope with anxiety?
+    - What are some ways to deal with anxiety?
+    - How do I get through anxiety?
