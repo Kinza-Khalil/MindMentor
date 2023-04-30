@@ -19,5 +19,4 @@ MindMentor is a mental health chatbot designed to provide support and advice for
 
 1. Train the Rasa model: rasa train
 2. Start the Rasa action server in a separate terminal: rasa run actions
-3. Start the Rasa server: rasa shell
-4. Open the index.html file in a web browser to interact with the chatbot. Or just press Go Live in the bottom right corner.
+3. Open the index.html file in a web browser to interact with the chatbot. Or just press Go Live in the bottom right corner.
